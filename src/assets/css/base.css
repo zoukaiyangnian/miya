@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  font-size: .75rem;
+  line-height: 1.5;
+  color: #333;
+  background: #fff;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+html{
+  background: #f2f2f2;
+}
+body, dd, dl, dt, h1, h2, h3, h4, h5, h6, li, ol, p, sub, sup, ul{
+margin: 0;
+padding: 0;
+list-style: none;
+font-size: .8rem;
+}
+body, button, input, textarea{
+font-family: \5FAE\8F6F\96C5\9ED1,SimHei;
+}
+
+a{
+text-decoration:none;
+}
+img{
+vertical-align:middle;
+}
+.clear:after{
+content:"";
+display:block;
+clear:both;
+}
+.lf{
+float:left;
+}
+.rt{
+float:right;
+}
